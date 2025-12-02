@@ -1,10 +1,33 @@
 # Hacktivity-Heatmap
 Generates an interactive heatmap visualization of activity patterns by weekday and hour.
 
-## Installation
+The script accepts timestamps in two formats:
+
+1. **ISO 8601 format:**
+   ```
+   2025-09-15T09:58:53
+   2025-09-15T09:58:53.000
+   2025-09-15T09:58:53.000Z
+   ```
+
+2. **DD/MM/YYYY format:**
+   ```
+   15/09/2025, 09:58:53.000
+   15/09/2025, 09:58:53
+   ```
+
+Files can contain a mix of both formats.
+
+## Requirements
 
 ```bash
 pip install pandas plotly
+```
+
+Or install from `requirements.txt`:
+
+```bash
+pip install -r requirements.txt
 ```
 
 ## Usage
@@ -14,16 +37,6 @@ python heatmap_plot.py <input_file.txt>
 ```
 
 This creates an HTML heatmap file in the same directory as the script.
-
-## Input Format
-
-Text file with ISO 8601 timestamps, one per line:
-
-```
-2025-10-05T09:21:59Z
-2025-11-10T10:22:09Z
-2025-12-23T12:26:23Z
-```
 
 ## Output
 
