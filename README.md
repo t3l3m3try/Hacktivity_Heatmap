@@ -30,5 +30,5 @@ Text file with ISO 8601 timestamps, one per line:
 Interactive HTML heatmap showing activity counts by weekday and hour. Darker blue indicates higher activity.
 
 ### Output Example:
-<img width="1044" height="601" alt="1" src="https://github.com/user-attachments/assets/8e165b85-d38f-4442-9306-f39aa0828c79" />
+
 
