@@ -1,6 +1,14 @@
 # Hacktivity-Heatmap
 Generates an interactive heatmap visualization of activity patterns by weekday and hour.
 
+## Features
+
+- Creates interactive HTML heatmaps using Plotly
+- Supports multiple timestamp formats
+- Visualizes activity by weekday (Monday-Sunday) and hour (0-23)
+- Clean, professional visualization with color-coded intensity
+- Automatically handles invalid/malformed timestamps
+
 The script accepts timestamps in two formats:
 
 1. **ISO 8601 format:**
