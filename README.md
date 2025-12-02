@@ -52,4 +52,6 @@ Interactive HTML heatmap showing activity counts by weekday and hour. Darker blu
 
 ### Output Example:
 
+<img width="1025" height="591" alt="1" src="https://github.com/user-attachments/assets/849503fa-ea82-42ec-9c27-59426ec87042" />
+
 
